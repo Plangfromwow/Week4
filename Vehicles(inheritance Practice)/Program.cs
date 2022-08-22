@@ -2,6 +2,21 @@
 myCar.Drive();
 RaceCar myRaceCar = new RaceCar(400, 4, "Red");
 myRaceCar.Drive();
+RaceCar secondRacecar = new RaceCar(4000, 3, "yellow");
+Console.WriteLine();
+Console.WriteLine("Everybody Drive!");
+List<Vehicle> cars = new List<Vehicle>();
+cars.Add(myCar);
+cars.Add(myRaceCar);
+cars.Add(secondRacecar);
+
+foreach (Vehicle car in cars)
+{
+    car.Drive();
+}
+
+
+Console.WriteLine();
 
 
 Vehicle something;
