@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPG Character Lab", "RPG Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaApp", "MediaApp\MediaApp.csproj", "{69A46A51-AA0C-45B7-83DE-EEEE00CC3FA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsedCarLot Lab'", "UsedCarLot Lab'\UsedCarLot Lab'.csproj", "{A5F25049-63E0-434F-A16F-5DF673BB7AEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{69A46A51-AA0C-45B7-83DE-EEEE00CC3FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69A46A51-AA0C-45B7-83DE-EEEE00CC3FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69A46A51-AA0C-45B7-83DE-EEEE00CC3FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F25049-63E0-434F-A16F-5DF673BB7AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F25049-63E0-434F-A16F-5DF673BB7AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F25049-63E0-434F-A16F-5DF673BB7AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F25049-63E0-434F-A16F-5DF673BB7AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
