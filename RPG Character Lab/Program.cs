@@ -14,14 +14,11 @@ foreach (GameCharacter character in gameCharacters)
     character.Play();
 }
 
-
-
-
-class GameCharacter
+ class GameCharacter
 {
-    public string name;
-    public int strength;
-    public int intelligence;
+    public string name; 
+    public int strength { get; set; } 
+    public int intelligence;    
 
     public GameCharacter (string _name, int _strength, int _intelligence)
     {
