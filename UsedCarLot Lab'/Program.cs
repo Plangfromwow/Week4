@@ -32,8 +32,6 @@ while (true)
     }
 }
 
-
-
 static void purchaseCar(List<Car> _list)
 {
     
@@ -49,8 +47,6 @@ static void purchaseCar(List<Car> _list)
     _list.RemoveAt(userChoice);
 
 }
-
-
 
 static void addCar(List<Car> _list)
 {
@@ -78,7 +74,6 @@ static void addCar(List<Car> _list)
         _list.Add(new UsedCar(userMake, userModel, userYear, userPrice, userMileage));
     }
 }
-
 
 static void initList(List<Car> _list)
 {
