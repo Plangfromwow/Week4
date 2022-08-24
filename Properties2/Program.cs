@@ -29,7 +29,6 @@ class Rectangle
         } 
     }
 
-
     public Rectangle (decimal length, decimal height)
     {
         this.length = length;
